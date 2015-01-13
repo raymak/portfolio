@@ -1,0 +1,13 @@
+* {
+	border: 1px solid red;
+}
+
+.container {
+	max-width: 960px;
+}
+
+img.proj-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
