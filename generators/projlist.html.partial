@@ -1,0 +1,9 @@
+<div class="proj-col col-md-4">
+	<img class="proj-img" src="http://placehold.it/200x200" />
+	<h4 class="text-center">sampleProj</h4>
+	<h5 class="text-center">sampleDate</h5>
+</div><div class="proj-col col-md-4">
+	<img class="proj-img" src="http://placehold.it/200x200" />
+	<h4 class="text-center">sampleProj2</h4>
+	<h5 class="text-center">sampleDate2</h5>
+</div>

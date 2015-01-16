@@ -1,13 +1,49 @@
 * {
-	border: 1px solid red;
+//	border: 1px solid red;
 }
 
 .container {
-	max-width: 960px;
+	max-width: 800px;
 }
 
 img.proj-img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+iframe.video{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+hr {
+	margin: 0px;
+}
+
+.header-title {
+	margin-bottom: 5px;
+}
+
+.list-inline li {
+	font-size: 16px;
+	padding-left: 10px;
+
+}
+
+.nav-row {
+	margin-bottom: 20px;
+}
+
+.proj-name {
+	font-size: 20px;
+}
+
+a:hover{
+	text-decoration: none;
+	}
+
+.active a{
+	color: #103D65;
 }
