@@ -47,17 +47,49 @@
 
 			<div class="row proj-section">
 				<div class="col-md-12">
-					<iframe class="video" width="560" height="315" src="//www.youtube.com/embed/5bIUhJBUcVI" frameborder="0" allowfullscreen></iframe>
-					<iframe class="video" width="560" height="315" src="//www.youtube.com/embed/TnMnc5YLW1o" frameborder="0" allowfullscreen></iframe>
+					<figure>
+						<iframe class="video" width="560" height="315" src="//www.youtube.com/embed/5bIUhJBUcVI" frameborder="0" allowfullscreen></iframe>
+						<figcaption>The unexplained active: a notification pops up and the message does not provide a rationale.</figcaption>
+					</figure>
+					<figure>
+						<iframe class="video" width="560" height="315" src="//www.youtube.com/embed/TnMnc5YLW1o" frameborder="0" allowfullscreen></iframe>
+						<figcaption>The explaiend passive design: only the icon lights up and the panel provides a rationale.</figcaption>
+					</figure>
+
 					<p class="proj-description">
-					Contextual feature recommender (CFR) is an idea intended to make users aware of features of a system
-					that could improve their use of the system. It is based on the observation that any non-trivial software
-					contains many tools that each user might only benefit from a unique subset of them. To help users find their
-					personal subset of features, CFR observes their behavior, infers what features they might benefit from, and
-					eventually introduces these features in unbtrusive way at the right moment.
-					I devised this idea and started working on it when I was interning at Mozilla's user research team. There I designed and
-					implemented multiple variations of this system  as a Firefox addon. It recommended features such as keyboard shortcuts, extensions, private browsing, etc. to the users if the user was likely to benefit based on their behavior. I conducted a preliminary experiment by remotely deploying it on some 16000 users' Firefox browsers for a week. I then collected the data and did a preliminary analysis
-					to see whether people have adopted the recommended features. 
+						Contextual feature recommender (CFR) makes users aware of the features of a system
+					that could improve their experience. It observes users' behavior, infers what features they might benefit from, and eventually recommends these features to them in an unobtrusive way at the right moment.
+					</p>
+					<p class="proj-description">
+						<span class="proj-desc-preamble"> Motivation </span>
+							Any non-trivial system contains various tools that each user only benefits from a unique subset of them. We can use the correlation between users' need of these tools and patterns of their usage to proactively find and recommend the features that are tailored to their very personal experience of the system.
+						</span>
+					</p>
+
+					<p class="proj-description">
+						<span class="proj-desc-preamble"> First experiment </span>
+							I devised the idea and developed the first experimental prototypes of this system during my internship at Mozilla in Summer 2014. I implemented multiple variations of CFR on Firefox. It recommended features such as keyboard shortcuts, extensions, private browsing, etc. to the users if the user was likely to benefit based on their behavior. We then conducted an experiment on about 16000 users, collected the data and did a preliminary analysis.
+						</span>
+					</p>
+
+					<p class="proj-description">
+						<span class="proj-desc-preamble"> Code </span>
+							The code is open-source and is hosted <a href="https://github.com/raymak/contextualfeaturerecommender" target="_blank">on github.</a>
+						</span>
+					</p>
+
+
+					<p class="proj-description">
+						<span class="proj-desc-preamble"> Tools </span>
+							The prototypes are implemented in javascript using Firefox addon SDK. We use Mozilla's Test Pilot platform to remotely deploy the addon. I have used Python for data processing.
+						</span>
+					</p>
+
+					<p class="proj-description">
+						<span class="proj-desc-preamble"> Status </span>
+							Extending this project and doing further experiments is currently my main research and it is closely related to my Master's thesis topic.
+						</span>
+					</p>
 
 					I am now continuing to work on this project as my Master's thesis. This problem is essentially interesting because it involves many of the challenges of designing proactive data-driven intelligent systems such as obtrusiveness, privacy invasion, lack of intelligibility, etc.
 					</p>
