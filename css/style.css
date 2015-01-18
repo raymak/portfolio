@@ -8,8 +8,25 @@
 
 img.proj-img{
 	display: block;
-	margin-left: auto;
+	max-width: 225px;
+	max-height: 175px;
 	margin-right: auto;
+	margin-left: auto;
+	height: 175px;
+}
+
+
+div.proj-img {
+	width: 175px;
+	height: 175px;
+}
+
+nav {
+	margin-bottom: 20px;
+}
+
+.proj-row {
+	margin-bottom: 20px;
 }
 
 iframe.video{
@@ -37,7 +54,7 @@ hr {
 }
 
 .proj-name {
-	font-size: 20px;
+	font-size: 17px;
 }
 
 a:hover{
@@ -46,4 +63,5 @@ a:hover{
 
 .active a{
 	color: #103D65;
+	text-decoration: underline;
 }

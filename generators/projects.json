@@ -1,10 +1,28 @@
 [
 	{
-		"title": "sampleProj",
-		"date": "sampleDate"
+		"title": "Contextual Feature Recommender",
+		"src": "contextualfeaturerecommender.html",
+		"image": "images/projects/cfr-firefox.png"
 		},
 	{
-		"title": "sampleProj2",
-		"date": "sampleDate2"	
+		"title": "Ephemeral Launcher",
+		"src": "ephemeraladaptation.html",
+		"image": "images/projects/ephemerallauncher.png"
+	},
+	{
+		"title": "Task Management",
+		"src": "studenttaskmanagement.html",
+		"image": "images/projects/tasklofi1-cropped.png"
+	},
+	{
+		"title": "Active Multilabel Classifier",
+		"src": "multilabelclassification.html",
+		"image": "images/projects/multilabel-crowd-sketch-resized.png"
+	},
+	{
+		"title": "Competition-based Neural Network",
+		"src": "competitionbasednn.html",
+		"image": "images/projects/cbnn-network-colored.png"
 	}
+
 ]

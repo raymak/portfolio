@@ -1,5 +1,5 @@
 <div class="proj-col col-md-4">
-	<img class="proj-img" src="http://placehold.it/200x200" />
-	<h4 class="text-center">%title%</h4>
-	<h5 class="text-center">%date%</h5>
+	<img class="proj-img" src="%image%" />
+	<a href="%src%">
+	<h4 class="proj-name text-center">%title%</h4></a>
 </div>

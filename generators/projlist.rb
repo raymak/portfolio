@@ -23,7 +23,8 @@ projects = JSON.parse(File.read(projectsFile))
 
 template = File.read(templateFile)
 
-output += projects.inject("") do |out, project|
+
+output = projects.inject("") do |out, project|
 	out + replaceString(project, template)
 end
 
