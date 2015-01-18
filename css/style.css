@@ -18,6 +18,12 @@ img.proj-img{
 h1.header-title {
 	color: #B42525;
 	font-size: 30px;
+	font-family: 'Special Elite', verdana, helvetica, cursive;
+}
+
+h1.proj-title {
+	margin-top: 0px;
+	font-size: 30px;
 }
 
 div.proj-img {
