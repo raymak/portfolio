@@ -15,14 +15,28 @@ img.proj-img{
 	height: 175px;
 }
 
+h1.header-title {
+	color: #B42525;
+	font-size: 30px;
+}
 
 div.proj-img {
 	width: 175px;
 	height: 175px;
 }
 
+.proj-title {
+	text-align: center;
+}
+
 nav {
 	margin-bottom: 20px;
+}
+
+p.proj-description {
+	max-width: 560px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .proj-row {
