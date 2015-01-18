@@ -64,12 +64,22 @@ span.proj-desc-preamble {
 }
 
 .proj-section .col-md-12 *{
-	font-size: 16px;
 	max-width: 560px;
+}
+
+.proj-section {
+	font-size: 16px;
 }
 
 .proj-row {
 	margin-bottom: 20px;
+}
+
+div.footnote {
+	font-size: 10px;
+}
+div.footnote li {
+	list-style-type: none;
 }
 
 figure {
@@ -94,6 +104,10 @@ figcaption {
 
 hr {
 	margin: 0px;
+}
+
+ul.refs {
+	padding-left: 0px;
 }
 
 .header-title {

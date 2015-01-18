@@ -48,8 +48,28 @@
 			<div class="row proj-section">
 				<div class="col-md-12">
 					<p class="proj-description">
-						This project involves writing a machine learning framework for classification of multilabel datasets using active learning. This problem is becoming increasingly important due to advent of new web-based applications that use techniques, such as automatically labeling content with tags, in order to help users browse the conent more easily. A typical example of such applications is automated tagging system on Youtube. In such scenarios use of active learning becomes particulary essential due to the large number of output labels each instance of data has. This framework is based on works presented in (...) and (...). We have extended some of the ideas presented in these papers. One example is use of nonlinear kernels and studying the interaction between the compression ratio and use of kernels on the resulting accuracy.
+						This project involves writing a Bayesian machine learning framework for classification of multilabel datasets in an active learning setting. 
 					</p>
+					<p class="proj-description">
+						<span class="proj-desc-preamble"> Motivation </span> This problem is becoming increasingly of interest due to the advent of web-based applications that use automatic labeling techniques, i.e. tags, to help users browse through the content more easily. A typical example of such applications is automated tagging system on Youtube. The large amount of data in these applications does not allow manual labeling. This is why use of active learning techniques is necessary. Also, due to the size of output space of such multilabel problems, use of 1 vs all techniques are prohobitive due to their large training time. To alleviate this problem, compressed sensing techniques are integrated into the Bayesian model.
+					</p>
+					<p class="proj-description">
+						<span class="proj-desc-preamble"> Approach </span>
+						We use a Bayesian model and force sparsity by treating sparsity constraints as random variables in the model. Variational methods are used for training and inference. Our work is largely based on ideas in [1] and [2]. We have extended some of the ideas presented in these papers. One example is use of nonlinear kernels and studying the interaction between the compression ratio and use of kernels on the resulting accuracy.
+					</p>
+						 
+					<br />
+					<div class="footnote proj-description">
+						<div class="proj-description">
+							<ul class="refs">
+								<li>[1] AshishKapoor, Raajay Viswanathan, and Prateek Jain. Multilabel classification using bayesian compressed sensing. In Advances in Neural Information Processing Systems, pages 2645– 2653, 2012.
+								</li>
+								<li>
+								[2] Deepak Vasisht, Andreas Damianou, Manik Varma, and Ashish Kapoor. Active learning for sparse bayesian multilabel classification. In Proceedings of the 20th ACM SIGKDD interna- tional conference on Knowledge discovery and data mining, pages 472–481. ACM, 2014.
+								</li>
+							</ul>
+						</div
+					</div>
 				</div>
 			</div>
 
