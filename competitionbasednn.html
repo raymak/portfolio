@@ -44,15 +44,45 @@
 					<h1 class="proj-title">Competition-based Neural Network</h1>
 				</div>
 			</div>
-
+			
 			<div class="row proj-section">
 				<div class="col-md-12">
 					<p class="proj-description">
-						Inspired by recent neural studies, this project uses competition between neurons as a form of nonlinearity to design an artificial neural network. This work was based on a recent paper presented at NIPS (...), where this idea was first introduced. In particular, these type of neural networks can achieve results as good as other state-of-the-art techniques such as (...) and (...), while preventing catastrophic forgetting when trained with a new dataset. 
-						We defined this project as the course project for our graduate computational neuroscience course.
-
+						This project is a general case implementation of a local winner-take-all (LWTA) artificial neural networks, which is a special case of the more general competition-based networks. Inspired by recent brain studies, competition-based networks use the competition between neighboring neurons as a form of nonlinearity that enables the network to learn complex discriminant functions. Results show that these networks can achieve comparable accuracies to other state-of-the-art methods such rectified linear activation (ReLU) methods. LWTA neural networks, however, are less susceptible to the problem of <em>catastrophic forgetting</em>.
+					</p>
+					<p class="proj-description">
+						<span class="proj-desc-preamble"> Motivation </span>
+							Studies of biological neural circuits such as [1] show a recurrent on-center, off-center anatomy of neurons that can be iterpretted as local competition between neighboring neurons. This behavior has recently inspired the design of artificial neural networks. It is therefore interesting to study what the advantages of such netowrks are compared to other types of neural networks.
+					</p>
+					<p class="proj-description">
+						<span class="proj-desc-preamble"> Approach </span>
+							This work is largely inspired by the ideas in [2]. In this approach, each layer consists of blocks of neurons. For each specific input, only one linear neuron in each of these blocks is activated: the neuron with the highest rate of firing.
 					</p>
 				</div>
+				<p class="proj-description">
+						<span class="proj-desc-preamble"> Code </span>
+							The code is open-source and is hosted <a href="https://github.com/raymak/contextualfeaturerecommender" target="_blank">on github.</a>
+						</span>
+					</p>
+
+					<p class="proj-description">
+						<span class="proj-desc-preamble"> Tools </span>
+							We implemented this project in MATLAB and used MNIST dataset to evaluate the model.
+						</span>
+					</p>
+
+					<br />
+					<div class="footnote proj-description">
+						<div class="proj-description">
+							<ul class="refs">
+								<li>[1]  Stephen Grossberg. Contour enhancement, short-term memory, and constancies in reverberating neural networks. Studies in Applied Mathematics, 52:213–257, 1973.
+								</li>
+								<li>
+								[2] Srivastava, Rupesh K., Masci, Jonathan, Kazerounian, Sohrob, Gomez, Faustino, and Schmidhuber, Jurgen. Compete to compute. In Advances in Neural Information Processing Systems, pp. 2310–2318, 2013.
+								</li>
+							</ul>
+						</div>
+					</div>
 			</div>
 
 
