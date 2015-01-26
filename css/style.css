@@ -37,6 +37,21 @@ div.proj-img {
 
 }
 
+.skills-section {
+	margin-left: 10px;
+}
+
+.skills-section h5{
+	color: #AB1919;
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.contact-section {
+	margin-left: 10px;
+}
+
 nav {
 	margin-bottom: 20px;
 }
